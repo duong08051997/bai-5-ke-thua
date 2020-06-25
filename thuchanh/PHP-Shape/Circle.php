@@ -1,6 +1,6 @@
 <?php
 include_once("Shape.php");
-class Cricle extends Shape{
+class Circle extends Shape{
     public $radius;
     public function __construct($name,$radius)
     {
