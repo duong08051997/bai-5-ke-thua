@@ -20,5 +20,11 @@ class Cylinder extends Circle{
     {
         return parent::calculateArea() * $this->height;
     }
+public function toString()
+{
+parent::toString();
+return "height: ".$this->height;
+}
+
 
 }

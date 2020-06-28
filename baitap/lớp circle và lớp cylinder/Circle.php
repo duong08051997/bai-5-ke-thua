@@ -53,4 +53,12 @@ class Circle
     {
         return pi() * $this->radius * 2;
     }
+
+    public function toString()
+    {
+        echo "color: ".$this->getColor();
+        echo "<br>";
+        echo "radius: ".$this->getRadius();
+        echo "<br>";
+    }
 }
